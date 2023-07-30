@@ -42,58 +42,33 @@
 		<div class="flex flex-wrap gap-10 justify-center text-left text-sm font-normal">
 			<FeatureCard
 				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
-				title="Cool Feature"
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam delectus aut fuga nemo molestias quisquam dignissimos repellat eaque nobis, architecto nihil numquam sapiente recusandae exercitationem ab. Nemo deleniti ipsam distinctio?"
+				title="Host Classes"
+				description="You can host private classes on discord only for your students."
 			/>
 			<FeatureCard
 				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
-				title="Cool Feature"
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam delectus aut fuga nemo molestias quisquam dignissimos repellat eaque nobis, architecto nihil numquam sapiente recusandae exercitationem ab. Nemo deleniti ipsam distinctio?"
+				title="View Satistics"
+				description="View useful information about your class within a month."
 			/>
 			<FeatureCard
 				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
-				title="Cool Feature"
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam delectus aut fuga nemo molestias quisquam dignissimos repellat eaque nobis, architecto nihil numquam sapiente recusandae exercitationem ab. Nemo deleniti ipsam distinctio?"
+				title="Assignments"
+				description="Method to send assignments as a teacher and submit answers back to teacher as a student."
 			/>
 			<FeatureCard
 				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
-				title="Cool Feature"
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam delectus aut fuga nemo molestias quisquam dignissimos repellat eaque nobis, architecto nihil numquam sapiente recusandae exercitationem ab. Nemo deleniti ipsam distinctio?"
+				title="Attendance"
+				description="Mark attendance of students in a VC."
 			/>
 			<FeatureCard
 				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
-				title="Cool Feature"
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam delectus aut fuga nemo molestias quisquam dignissimos repellat eaque nobis, architecto nihil numquam sapiente recusandae exercitationem ab. Nemo deleniti ipsam distinctio?"
-			/>
-			<FeatureCard
-				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
-				title="Cool Feature"
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam delectus aut fuga nemo molestias quisquam dignissimos repellat eaque nobis, architecto nihil numquam sapiente recusandae exercitationem ab. Nemo deleniti ipsam distinctio?"
-			/>
-			<FeatureCard
-				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
-				title="Cool Feature"
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam delectus aut fuga nemo molestias quisquam dignissimos repellat eaque nobis, architecto nihil numquam sapiente recusandae exercitationem ab. Nemo deleniti ipsam distinctio?"
-			/>
-			<FeatureCard
-				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
-				title="Cool Feature"
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam delectus aut fuga nemo molestias quisquam dignissimos repellat eaque nobis, architecto nihil numquam sapiente recusandae exercitationem ab. Nemo deleniti ipsam distinctio?"
-			/>
-			<FeatureCard
-				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
-				title="Cool Feature"
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam delectus aut fuga nemo molestias quisquam dignissimos repellat eaque nobis, architecto nihil numquam sapiente recusandae exercitationem ab. Nemo deleniti ipsam distinctio?"
-			/>
-			<FeatureCard
-				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
-				title="Cool Feature"
-				description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam delectus aut fuga nemo molestias quisquam dignissimos repellat eaque nobis, architecto nihil numquam sapiente recusandae exercitationem ab. Nemo deleniti ipsam distinctio?"
+				title="Dashboard"
+				description="A clean dashboard to manage our bot."
 			/>
 		</div>
 	</section>
 
-	<svg class="fill-slate-950" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+	<svg class="fill-slate-950" viewBox="0 0 1200 120" preserveAspectRatio="none">
 		<path
 			d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
 			class="shape-fill"
@@ -104,8 +79,10 @@
 	<section class="relative z-10 center-everything min-h-64 bg-slate-900 flex-col h-full text-justify mb-12">
 		<h1 class="text-5xl font-bold m-5 mt-16 text-purple-500">About LMS</h1>
 		<p class="m-16 mt-5 lg:mx-96">
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam itaque illum harum iure quam consequuntur deserunt deleniti, officia
-			pariatur, aliquid natus corporis, numquam tempora est perspiciatis delectus amet facilis.
+			Introducing LMS Discord Bot, your ultimate companion for creating and managing a Learning Management System on Discord! This versatile bot is
+			designed to streamline the process of setting up an educational platform, making it a breeze for Educators, Admins and students alike. With LMS
+			you can automate the process of creating classes, sending assignments, scheduling classes + much more. Join us and elevate your learning
+			experience today!
 		</p>
 	</section>
 
