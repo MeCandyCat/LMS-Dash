@@ -17,11 +17,11 @@
 <!-- section container  -->
 <div class="overflow-x-hidden">
 	<!-- first section  -->
-	<section class="h-5/6 mt-28 md:32 xl:mt-64 text-center leading-normal p-16 text-5xl font-bold center-everything flex-col gap-10 overflow-y-clip">
+	<section class="h-5/6 mt-28 md:32 text-center leading-normal p-16 text-5xl font-bold center-everything flex-col gap-10 overflow-y-clip">
 		<div class="absolute top-0 right-0 bg-blue-700 opacity-70 rounded-full w-1/3 aspect-square filter blur-3xl mix-blend-soft-light" />
 		<div class="absolute bottom-0 left-0 bg-purple-900 opacity-50 rounded-full w-1/4 aspect-square filter blur-3xl" />
 
-		<h1 class="mx-96 bg-gradient-to-br bg-clip-text text-transparent from-sky-400 from-40% to-purple-700 to-90%">
+		<h1 class="bg-gradient-to-br bg-clip-text text-transparent from-sky-400 from-40% to-purple-700 to-90%">
 			Learning Management System<br />in Discord.
 		</h1>
 		<button class="text-4xl p-2 px-4 border-4 transition-all duration-500 border-purple-500 hover:border-sky-500 hover:text-sky-300 rounded-full"
