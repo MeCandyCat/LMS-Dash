@@ -39,7 +39,7 @@
 
 	<!-- Features section  -->
 	<section class="relative p-16 flex-col center-everything gap-10 bg-slate-950">
-		<h1 class="text-5xl font-bold">Features</h1>
+		<h1 class="text-5xl font-bold text-purple-500">Features</h1>
 
 		<div class="flex flex-wrap gap-10 justify-center text-left text-sm font-normal">
 			<FeatureCard
