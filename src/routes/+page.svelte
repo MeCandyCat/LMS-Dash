@@ -20,7 +20,7 @@
 		<div class="absolute bottom-0 left-0 bg-purple-900 opacity-50 rounded-full w-1/4 aspect-square filter blur-3xl" />
 
 		<h1 class="mx-96 bg-gradient-to-br bg-clip-text text-transparent from-sky-400 from-40% to-purple-700 to-90%">
-			Learning Management System in Discord.
+			Learning Management System<br>in Discord.
 		</h1>
 		<button class="text-4xl p-2 px-4 border-4 transition-all duration-500 border-purple-500 hover:border-sky-500 hover:text-sky-300 rounded-full"
 			>Invite</button
@@ -101,7 +101,7 @@
 	</svg>
 
 	<!-- about section  -->
-	<section class="relative z-10 center-everything min-h-64 bg-slate-900 flex-col h-full text-justify mb-24">
+	<section class="relative z-10 center-everything min-h-64 bg-slate-900 flex-col h-full text-justify mb-12">
 		<h1 class="text-5xl font-bold m-5 mt-16 text-purple-500">About LMS</h1>
 		<p class="m-16 mt-5 lg:mx-96">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita aliquam itaque illum harum iure quam consequuntur deserunt deleniti, officia
