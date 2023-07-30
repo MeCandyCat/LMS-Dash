@@ -6,7 +6,7 @@
 
 <!-- nav bar  -->
 <nav class="p-2 sm:p-10 h-10 flex justify-between items-center w-full text-lg sm:text-2xl font-bold gap-5">
-	<a class="text-transparent bg-gradient-to-br bg-clip-text from-indigo-500 from-50% to-sky-500 to-70%" href="/">LMS</a>
+	<a class="text-transparent bg-gradient-to-br bg-clip-text from-indigo-500 from-50% to-sky-500 to-70%" href="{base}">LMS</a>
 	<div class="gap-5 flex">
 		<a href="https://mecandycat.github.io/LMS-Docs/">Docs</a>
 		<a href="{base}">Support</a>
