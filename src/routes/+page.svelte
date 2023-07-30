@@ -1,5 +1,7 @@
 <script>
 	import FeatureCard from '$lib/FeatureCard.svelte';
+	import { base } from '$app/paths'
+
 </script>
 
 <!-- nav bar  -->
@@ -7,9 +9,9 @@
 	<a class="text-transparent bg-gradient-to-br bg-clip-text from-indigo-500 from-50% to-sky-500 to-70%" href="/">LMS</a>
 	<div class="gap-5 flex">
 		<a href="https://mecandycat.github.io/LMS-Docs/">Docs</a>
-		<a href="/">Support</a>
+		<a href="{base}">Support</a>
 	</div>
-	<a href="/">Login</a>
+	<a href="{base}">Login</a>
 </nav>
 
 <!-- section container  -->
@@ -98,10 +100,10 @@
 			<p>&copy LMS Developer Team</p>
 		</div>
 		<div class="flex gap-10 underline-offset-2">
-			<a class="hover:underline" href="/">Docs</a>
-			<a class="hover:underline" href="/">Support</a>
-			<a class="hover:underline" href="/">Invite</a>
-			<a class="hover:underline" href="/">Dashboard</a>
+			<a class="hover:underline" href="{base}">Docs</a>
+			<a class="hover:underline" href="{base}">Support</a>
+			<a class="hover:underline" href="{base}">Invite</a>
+			<a class="hover:underline" href="{base}">Dashboard</a>
 		</div>
 	</footer>
 </div>
