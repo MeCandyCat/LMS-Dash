@@ -1,36 +1,43 @@
 <script>
 	import FeatureCard from '$lib/FeatureCard.svelte';
-	import { base } from '$app/paths'
+	import { base } from '$app/paths';
 
+	const supportLink = 'https://discord.gg/FMxa75JcB2';
+	const docsLink = 'https://mecandycat.github.io/LMS-Docs/';
+	const inviteLink =
+		'https://discord.com/oauth2/authorize?client_id=1070318648910164048&scope=bot&permissions=2583088249&scope=applications.commands%20bot ';
 </script>
 
 <!-- nav bar  -->
-<nav class="p-2 sm:p-10 h-10 flex justify-between items-center w-full text-lg sm:text-2xl font-bold gap-5">
-	<a class="text-transparent bg-gradient-to-br bg-clip-text from-indigo-500 from-50% to-sky-500 to-70%" href="{base}">LMS</a>
+<nav class="p-2 sm:p-10 h-10 md:text-2xl flex justify-between items-center w-full text-lg sm:text-2xl font-bold gap-5">
+	<a class="text-transparent bg-gradient-to-br bg-clip-text from-indigo-500 from-50% to-sky-500 to-70%" href={base}>LMS</a>
 	<div class="gap-5 flex">
-		<a href="https://mecandycat.github.io/LMS-Docs/">Docs</a>
-		<a href="{base}">Support</a>
+		<a class="hover:underline" href={docsLink}>Docs</a>
+		<a class="hover:underline" href={supportLink}>Support</a>
+		<a class="hover:underline" href={inviteLink}>Invite</a>
 	</div>
-	<a href="{base}">Login</a>
+	<a class="hover:underline" href={base}>Login</a>
 </nav>
 
 <!-- section container  -->
 <div class="overflow-x-hidden">
 	<!-- first section  -->
-	<section class="h-5/6 mt-28 md:32 text-center leading-normal p-16 text-5xl font-bold center-everything flex-col gap-10 overflow-y-clip">
-		<div class="absolute top-0 right-0 bg-blue-700 opacity-70 rounded-full w-1/3 aspect-square filter blur-3xl mix-blend-soft-light" />
-		<div class="absolute bottom-0 left-0 bg-purple-900 opacity-50 rounded-full w-1/4 aspect-square filter blur-3xl" />
+	<section class="relative h-screen pt-28 text-center leading-normal p-16 text-5xl font-bold center-everything flex-col gap-10 overflow-y-clip">
+		<div class="absolute top-0 right-0 bg-blue-700 opacity-50 rounded-full w-1/3 aspect-square filter blur-3xl mix-blend-soft-light" />
+		<div class="absolute bottom-1/4 left-28 bg-purple-900 opacity-20 rounded-full w-1/4 aspect-square filter blur-3xl" />
 
-		<h1 class="bg-gradient-to-br bg-clip-text text-transparent from-sky-400 from-40% to-purple-700 to-90%">
+		<h1 class="bg-gradient-to-br bg-clip-text text-transparent from-sky-400 from-40% to-purple-700 to-80%">
 			Learning Management System<br />in Discord.
 		</h1>
-		<button class="text-4xl p-2 px-4 border-4 transition-all duration-500 border-purple-500 hover:border-sky-500 hover:text-sky-300 rounded-full"
-			>Invite</button
+		<a
+			href={inviteLink}
+			class="text-4xl p-2 px-4 border-4 transition-all duration-500 hover:text-purple-300 hover:border-purple-500 border-sky-500 text-sky-300 rounded-full"
+			>Invite</a
 		>
 	</section>
 
 	<!-- section divider  -->
-	<svg class="relative fill-slate-950" viewBox="0 0 1440 320"
+	<svg class="fill-slate-950" viewBox="0 0 1440 320"
 		><path
 			fill-opacity="1"
 			d="M0,192L80,202.7C160,213,320,235,480,224C640,213,800,171,960,176C1120,181,1280,235,1360,261.3L1440,288L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
@@ -38,32 +45,36 @@
 	>
 
 	<!-- Features section  -->
-	<section class="relative p-16 flex-col center-everything gap-10 bg-slate-950">
+	<section class="relative p-16 pb-48 flex-col center-everything gap-10 bg-slate-950">
 		<h1 class="text-5xl font-bold text-purple-500">Features</h1>
 
-		<div class="flex flex-wrap gap-10 justify-center text-left text-sm font-normal">
+		<div class="flex gap-10 text-sm overflow-x-auto w-2/3 p-10 scroll-p-10 snap-x scroll-smooth">
 			<FeatureCard
-				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
+				image="https://cdn-icons-png.flaticon.com/128/2641/2641257.png"
 				title="Host Classes"
 				description="You can host private classes on discord only for your students."
+				color="via-green-500"
 			/>
 			<FeatureCard
-				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
+				image="https://cdn-icons-png.flaticon.com/128/2641/2641289.png"
 				title="View Satistics"
 				description="View useful information about your class within a month."
+				color="via-blue-600"
 			/>
 			<FeatureCard
-				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
+				image="https://cdn-icons-png.flaticon.com/128/2641/2641478.png"
 				title="Assignments"
-				description="Method to send assignments as a teacher and submit answers back to teacher as a student."
+				description="Send assignments as a teacher and submit answers as a student."
+				color="via-orange-500"
 			/>
 			<FeatureCard
-				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
+				image="https://cdn-icons-png.flaticon.com/128/2641/2641483.png"
 				title="Attendance"
 				description="Mark attendance of students in a VC."
+				color="via-yellow-300"
 			/>
 			<FeatureCard
-				image="https://images-ext-2.discordapp.net/external/2r8e9QV2hma4BspoSm6X7kW6pyqsMhsZqvDfsARRDt8/https/cdn.discordapp.com/avatars/725721249652670555/781224f90c3b841ba5b40678e032f74a.webp"
+				image="https://cdn-icons-png.flaticon.com/128/2641/2641269.png "
 				title="Dashboard"
 				description="A clean dashboard to manage our bot."
 			/>
@@ -100,10 +111,10 @@
 			<p>&copy LMS Developer Team</p>
 		</div>
 		<div class="flex gap-10 underline-offset-2">
-			<a class="hover:underline" href="{base}">Docs</a>
-			<a class="hover:underline" href="{base}">Support</a>
-			<a class="hover:underline" href="{base}">Invite</a>
-			<a class="hover:underline" href="{base}">Dashboard</a>
+			<a class="hover:underline" href={docsLink}>Docs</a>
+			<a class="hover:underline" href={supportLink}>Support</a>
+			<a class="hover:underline" href={inviteLink}>Invite</a>
+			<a class="hover:underline" href={base}>Dashboard</a>
 		</div>
 	</footer>
 </div>
