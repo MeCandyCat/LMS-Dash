@@ -21,11 +21,13 @@
 
 <!-- section container  -->
 <div class="overflow-x-hidden">
-	<!-- first section  -->
-	<section class="relative h-screen pt-28 text-center leading-normal p-16 text-5xl font-bold center-everything flex-col gap-10 overflow-y-clip">
-		<div class="absolute top-0 right-0 bg-blue-700 opacity-50 rounded-full w-1/3 aspect-square filter blur-3xl mix-blend-soft-light" />
+	<!-- shapes  -->
+	<div>
+		<div class="z-10 absolute top-20 right-0 bg-blue-700 opacity-50 rounded-full w-1/3 aspect-square filter blur-3xl mix-blend-soft-light" />
 		<div class="absolute bottom-1/4 left-28 bg-purple-900 opacity-20 rounded-full w-1/4 aspect-square filter blur-3xl" />
-
+	</div>
+	<!-- first section  -->
+	<section class="relative h-screen pt-28 text-center leading-normal p-16 text-5xl font-bold center-everything flex-col gap-10">
 		<h1 class="bg-gradient-to-br bg-clip-text text-transparent from-sky-400 from-40% to-purple-700 to-80%">
 			Learning Management System<br />in Discord.
 		</h1>
