@@ -5,7 +5,7 @@
 	export let color: string = 'via-fuchsia-500';
 </script>
 
-<div class="group relative w-64 snap-center transition-all duration-500 hover:scale-105 md:min-w-fit">
+<div class="group relative w-64 transition-all duration-500 hover:scale-105 md:min-w-fit">
 	<div
 		class="absolute -top-0.5 bg-gradient-to-r from-transparent {color} h-full w-full rounded-2xl to-transparent opacity-60 transition-all duration-500 hover:rounded-3xl group-hover:opacity-100"
 	/>
