@@ -5,16 +5,16 @@
 	export let color: string = 'via-fuchsia-500';
 </script>
 
-<div class="snap-center relative w-64 md:min-w-fit group transition-all duration-500 hover:scale-105">
+<div class="group relative w-64 snap-center transition-all duration-500 hover:scale-105 md:min-w-fit">
 	<div
-		class="absolute -top-0.5 bg-gradient-to-r from-transparent {color} to-transparent opacity-60 transition-all duration-500 group-hover:opacity-100 h-full w-full rounded-2xl hover:rounded-3xl"
+		class="absolute -top-0.5 bg-gradient-to-r from-transparent {color} h-full w-full rounded-2xl to-transparent opacity-60 transition-all duration-500 hover:rounded-3xl group-hover:opacity-100"
 	/>
-	<div class="bg-slate-900 relative p-10 space-y-5 h-full w-full rounded-2xl">
+	<div class="relative h-full w-full space-y-5 rounded-2xl bg-slate-900 p-10">
 		<div class="flex items-center gap-5">
-			<img class="w-16 aspect-square justify-self-start" src={image} alt="" />
-			<h1 class="text-2xl font-bold content-stretch justify-self-start">{title}</h1>
+			<img class="aspect-square w-16 justify-self-start" src={image} alt="" />
+			<h1 class="content-stretch justify-self-start text-2xl font-bold">{title}</h1>
 		</div>
-		<p class="col-span-2 text-justify w-96">
+		<p class="col-span-2 w-96 text-justify">
 			{description}
 		</p>
 	</div>

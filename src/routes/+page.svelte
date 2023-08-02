@@ -9,9 +9,9 @@
 </script>
 
 <!-- nav bar  -->
-<nav class="p-2 sm:p-10 h-10 md:text-2xl flex justify-between items-center w-full text-lg sm:text-2xl font-bold gap-5">
-	<a class="text-transparent bg-gradient-to-br bg-clip-text from-indigo-500 from-50% to-sky-500 to-70%" href={base}>LMS</a>
-	<div class="gap-5 flex">
+<nav class="flex h-10 w-full items-center justify-between gap-5 p-2 text-lg font-bold sm:p-10 sm:text-2xl md:text-2xl">
+	<a class="bg-gradient-to-br from-indigo-500 from-50% to-sky-500 to-70% bg-clip-text text-transparent" href={base}>LMS</a>
+	<div class="flex gap-5">
 		<a class="hover:underline" href={docsLink}>Docs</a>
 		<a class="hover:underline" href={supportLink}>Support</a>
 		<a class="hover:underline" href={inviteLink}>Invite</a>
@@ -23,17 +23,17 @@
 <div class="overflow-x-hidden">
 	<!-- shapes  -->
 	<div>
-		<div class="z-10 absolute top-20 right-0 bg-blue-700 opacity-50 rounded-full w-1/3 aspect-square filter blur-3xl mix-blend-soft-light" />
-		<div class="absolute bottom-1/4 left-28 bg-purple-900 opacity-20 rounded-full w-1/4 aspect-square filter blur-3xl" />
+		<div class="absolute right-0 top-20 z-10 aspect-square w-1/3 rounded-full bg-blue-700 opacity-50 mix-blend-soft-light blur-3xl filter" />
+		<div class="absolute bottom-1/4 left-28 aspect-square w-1/4 rounded-full bg-purple-900 opacity-20 blur-3xl filter" />
 	</div>
 	<!-- first section  -->
-	<section class="relative h-screen pt-28 text-center leading-normal p-16 text-5xl font-bold center-everything flex-col gap-10">
-		<h1 class="bg-gradient-to-br bg-clip-text text-transparent from-sky-400 from-40% to-purple-700 to-80%">
+	<section class="center-everything relative h-screen flex-col gap-10 p-16 pt-28 text-center text-5xl font-bold leading-normal">
+		<h1 class="bg-gradient-to-br from-sky-400 from-40% to-purple-700 to-80% bg-clip-text text-transparent">
 			Learning Management System<br />in Discord.
 		</h1>
 		<a
 			href={inviteLink}
-			class="text-4xl p-2 px-4 border-4 transition-all duration-500 hover:text-purple-300 hover:border-purple-500 border-sky-500 text-sky-300 rounded-full"
+			class="rounded-full border-4 border-sky-500 p-2 px-4 text-4xl text-sky-300 transition-all duration-500 hover:border-purple-500 hover:text-purple-300"
 			>Invite</a
 		>
 	</section>
@@ -47,10 +47,10 @@
 	>
 
 	<!-- Features section  -->
-	<section class="relative p-16 pb-48 flex-col center-everything gap-10 bg-slate-950">
+	<section class="center-everything relative flex-col gap-10 bg-slate-950 p-16 pb-48">
 		<h1 class="text-5xl font-bold text-purple-500">Features</h1>
 
-		<div class="flex gap-10 text-sm overflow-x-auto w-2/3 p-10 scroll-p-10 snap-x scroll-smooth">
+		<div class="flex w-2/3 snap-x scroll-p-10 gap-10 overflow-x-auto scroll-smooth p-10 text-sm">
 			<FeatureCard
 				image="https://cdn-icons-png.flaticon.com/128/2641/2641257.png"
 				title="Host Classes"
@@ -91,8 +91,8 @@
 	</svg>
 
 	<!-- about section  -->
-	<section class="relative z-10 center-everything min-h-64 bg-slate-900 flex-col h-full text-justify mb-12">
-		<h1 class="text-5xl font-bold m-5 mt-16 text-purple-500">About LMS</h1>
+	<section class="center-everything min-h-64 relative z-10 mb-12 h-full flex-col bg-slate-900 text-justify">
+		<h1 class="m-5 mt-16 text-5xl font-bold text-purple-500">About LMS</h1>
 		<p class="m-16 mt-5 lg:mx-96">
 			Introducing LMS Discord Bot, your ultimate companion for creating and managing a Learning Management System on Discord! This versatile bot is
 			designed to streamline the process of setting up an educational platform, making it a breeze for Educators, Admins and students alike. With LMS
@@ -107,7 +107,7 @@
 		/>
 	</svg>
 
-	<footer class="relative flex items-center justify-around gap-10 p-16 flex-col md:flex-row font-bold text-lg bg-slate-950">
+	<footer class="relative flex flex-col items-center justify-around gap-10 bg-slate-950 p-16 text-lg font-bold md:flex-row">
 		<div class="text-center">
 			<h1 class="text-8xl">LMS</h1>
 			<p>&copy LMS Developer Team</p>

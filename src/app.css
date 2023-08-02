@@ -25,5 +25,5 @@ body {
 }
 
 .center-everything {
-	@apply justify-center items-center flex;
+	@apply flex items-center justify-center;
 }
