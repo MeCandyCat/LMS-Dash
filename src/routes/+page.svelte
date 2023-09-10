@@ -1,31 +1,16 @@
 <script>
 	import FeatureCard from '$lib/FeatureCard.svelte';
-	import { base } from '$app/paths';
-
-	const supportLink = 'https://discord.gg/FMxa75JcB2';
-	const docsLink = 'https://mecandycat.github.io/LMS-Docs/';
-	const inviteLink =
-		'https://discord.com/oauth2/authorize?client_id=1070318648910164048&scope=bot&permissions=2583088249&scope=applications.commands%20bot ';
+    import links from '$lib/links'
+    import { base } from '$app/paths';
 </script>
 
 <div class="bg-grid">
-	<!-- nav bar  -->
-	<nav class="flex h-10 w-full items-center justify-between gap-5 p-2 text-lg font-bold sm:p-10 sm:text-2xl md:text-2xl">
-		<a class="bg-gradient-to-br from-indigo-500 from-50% to-sky-500 to-70% bg-clip-text text-transparent" href={base}>LMS</a>
-		<div class="flex gap-5">
-			<a class="hover:underline" href={docsLink}>Docs</a>
-			<a class="hover:underline" href={supportLink}>Support</a>
-			<a class="hover:underline" href={inviteLink}>Invite</a>
-		</div>
-		<a class="hover:underline" href={base}>Login</a>
-	</nav>
-
 	<!-- section container  -->
 	<div class="overflow-x-hidden">
 		<!-- shapes  -->
 		<div>
-			<div class="absolute right-0 top-20 z-10 aspect-square w-1/3 rounded-full bg-blue-700 opacity-50 mix-blend-soft-light blur-3xl filter" />
-			<div class="absolute bottom-1/4 left-28 aspect-square w-1/4 rounded-full bg-purple-900 opacity-20 blur-3xl filter" />
+			<div class="absolute right-0 top-0 z-10 aspect-square w-[55%] rounded-full bg-blue-700 opacity-50 mix-blend-soft-light blur-3xl filter" />
+			<div class="absolute -bottom-72 left-0 aspect-square w-[60%] rounded-full bg-purple-900 opacity-20 blur-3xl filter" />
 		</div>
 		<!-- first section  -->
 		<section class="center-everything relative h-screen flex-col gap-10 p-16 pt-28 text-center text-5xl font-bold leading-normal">
@@ -33,7 +18,7 @@
 				Learning Management System<br />in Discord.
 			</h1>
 			<a
-				href={inviteLink}
+				href={links.inviteLink}
 				class="rounded-full border-4 border-sky-500 p-2 px-4 text-4xl text-sky-300 transition-all duration-500 hover:border-purple-500 hover:text-purple-300"
 				>Invite</a
 			>
@@ -49,9 +34,9 @@
 
 		<!-- Features section  -->
 		<section class="center-everything relative flex-col gap-10 bg-slate-950 p-16 pb-48">
-			<h1 class="text-5xl font-bold text-purple-500">Features</h1>
+			<h1 class="text-5xl font-bold text-purple-500 text-center">Features</h1>
 
-			<div class="scroll-smoot flex w-2/3 snap-x scroll-p-10 gap-10 overflow-x-auto p-10 text-sm">
+			<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 justify-center">
 				<FeatureCard
 					image="https://cdn-icons-png.flaticon.com/128/2641/2641257.png"
 					title="Host Classes"
@@ -94,7 +79,7 @@
 		<!-- about section  -->
 		<section class="center-everything min-h-64 relative z-10 h-full flex-col bg-slate-900 text-justify">
 			<h1 class="m-5 mt-16 text-5xl font-bold text-purple-500">About LMS</h1>
-			<p class="m-16 mt-5 lg:mx-96">
+			<p class="m-16 mt-5 lg:mx-48 xl:mx-96">
 				Introducing LMS Discord Bot, your ultimate companion for creating and managing a Learning Management System on Discord! This versatile bot is
 				designed to streamline the process of setting up an educational platform, making it a breeze for Educators, Admins and students alike. With
 				LMS you can automate the process of creating classes, sending assignments, scheduling classes + much more. Join us and elevate your learning
@@ -114,18 +99,11 @@
 				<p>&copy LMS Developer Team</p>
 			</div>
 			<div class="flex gap-10 underline-offset-2">
-				<a class="hover:underline" href={docsLink}>Docs</a>
-				<a class="hover:underline" href={supportLink}>Support</a>
-				<a class="hover:underline" href={inviteLink}>Invite</a>
+				<a class="hover:underline" href={links.docsLink}>Docs</a>
+				<a class="hover:underline" href={links.supportLink}>Support</a>
+				<a class="hover:underline" href={links.inviteLink}>Invite</a>
 				<a class="hover:underline" href={base}>Dashboard</a>
 			</div>
 		</footer>
 	</div>
 </div>
-
-<style>
-	.bg-grid {
-		background-size: 50px 50px;
-		background-image: linear-gradient(to right, #141d33 1px, transparent 1px), linear-gradient(to bottom, #141d33 1px, transparent 1px);
-	}
-</style>
