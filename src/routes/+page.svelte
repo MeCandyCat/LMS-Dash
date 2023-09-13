@@ -1,7 +1,7 @@
 <script>
 	import FeatureCard from '$lib/FeatureCard.svelte';
-    import links from '$lib/links'
-    import { base } from '$app/paths';
+	import links from '$lib/links';
+	import { base } from '$app/paths';
 </script>
 
 <div class="bg-grid">
@@ -9,8 +9,8 @@
 	<div class="overflow-x-hidden">
 		<!-- shapes  -->
 		<div>
-			<div class="absolute right-0 top-0 z-10 aspect-square w-[55%] rounded-full bg-blue-700 opacity-50 mix-blend-soft-light blur-3xl filter" />
-			<div class="absolute -bottom-72 left-0 aspect-square w-[60%] rounded-full bg-purple-900 opacity-20 blur-3xl filter" />
+			<div class="absolute right-0 top-0 -z-10 aspect-square w-[55%] rounded-full bg-blue-700 opacity-50 mix-blend-soft-light blur-3xl filter" />
+			<div class="absolute -bottom-72 left-0 -z-10 aspect-square w-[60%] rounded-full bg-purple-900 opacity-20 blur-3xl filter" />
 		</div>
 		<!-- first section  -->
 		<section class="center-everything relative h-screen flex-col gap-10 p-16 pt-28 text-center text-5xl font-bold leading-normal">
@@ -34,9 +34,9 @@
 
 		<!-- Features section  -->
 		<section class="center-everything relative flex-col gap-10 bg-slate-950 p-16 pb-48">
-			<h1 class="text-5xl font-bold text-purple-500 text-center">Features</h1>
+			<h1 class="text-center text-5xl font-bold text-purple-500">Features</h1>
 
-			<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 justify-center">
+			<div class="grid grid-cols-1 justify-center gap-10 lg:grid-cols-2">
 				<FeatureCard
 					image="https://cdn-icons-png.flaticon.com/128/2641/2641257.png"
 					title="Host Classes"
