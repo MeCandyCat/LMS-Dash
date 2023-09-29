@@ -1,7 +1,7 @@
 <script>
 	import FeatureCard from '$lib/FeatureCard.svelte';
-    import links from '$lib/links'
-    import { base } from '$app/paths';
+	import links from '$lib/links';
+	import { base } from '$app/paths';
 </script>
 
 <div class="bg-grid">
@@ -9,17 +9,17 @@
 	<div class="overflow-x-hidden">
 		<!-- shapes  -->
 		<div>
-			<div class="absolute right-0 top-0 z-10 aspect-square w-[55%] rounded-full bg-blue-700 opacity-50 mix-blend-soft-light blur-3xl filter" />
-			<div class="absolute -bottom-72 left-0 aspect-square w-[60%] rounded-full bg-purple-900 opacity-20 blur-3xl filter" />
+			<div class="absolute right-0 top-0 -z-10 aspect-square w-[55%] rounded-full bg-blue-700 opacity-50 mix-blend-soft-light blur-3xl filter" />
+			<div class="absolute -bottom-72 left-0 -z-10 aspect-square w-[60%] rounded-full bg-purple-900 opacity-20 blur-3xl filter" />
 		</div>
 		<!-- first section  -->
-		<section class="center-everything relative h-screen flex-col gap-10 p-16 pt-28 text-center text-5xl font-bold leading-normal">
+		<section class="relative flex-col h-screen gap-10 p-16 text-5xl font-bold leading-normal text-center center-everything pt-28">
 			<h1 class="bg-gradient-to-br from-sky-400 from-40% to-purple-700 to-80% bg-clip-text text-transparent">
 				Learning Management System<br />in Discord.
 			</h1>
 			<a
-				href={links.inviteLink}
-				class="rounded-full border-4 border-sky-500 p-2 px-4 text-4xl text-sky-300 transition-all duration-500 hover:border-purple-500 hover:text-purple-300"
+				href={links.inviteLink} target="_blank"
+				class="p-2 px-4 text-4xl transition-all duration-500 border-4 rounded-full border-sky-500 text-sky-300 hover:border-purple-500 hover:text-purple-300"
 				>Invite</a
 			>
 		</section>
@@ -33,10 +33,10 @@
 		<!-- section divider  -->
 
 		<!-- Features section  -->
-		<section class="center-everything relative flex-col gap-10 bg-slate-950 p-16 pb-48">
-			<h1 class="text-5xl font-bold text-purple-500 text-center">Features</h1>
+		<section class="relative flex-col gap-10 p-16 pb-48 center-everything bg-slate-950">
+			<h1 class="text-5xl font-bold text-center text-purple-500">Features</h1>
 
-			<div class="grid grid-cols-1 lg:grid-cols-2 gap-10 justify-center">
+			<div class="grid justify-center grid-cols-1 gap-10 lg:grid-cols-2">
 				<FeatureCard
 					image="https://cdn-icons-png.flaticon.com/128/2641/2641257.png"
 					title="Host Classes"
@@ -77,7 +77,7 @@
 		</svg>
 
 		<!-- about section  -->
-		<section class="center-everything min-h-64 relative z-10 h-full flex-col bg-slate-900 text-justify">
+		<section class="relative z-10 flex-col h-full text-justify center-everything min-h-64 bg-slate-900">
 			<h1 class="m-5 mt-16 text-5xl font-bold text-purple-500">About LMS</h1>
 			<p class="m-16 mt-5 lg:mx-48 xl:mx-96">
 				Introducing LMS Discord Bot, your ultimate companion for creating and managing a Learning Management System on Discord! This versatile bot is
@@ -93,16 +93,18 @@
 			/>
 		</svg>
 
-		<footer class="relative flex flex-col items-center justify-around gap-10 bg-slate-950 p-16 text-lg font-bold md:flex-row">
+		<footer class="relative flex flex-col items-center justify-around gap-10 p-16 text-lg font-bold bg-slate-950 md:flex-row">
 			<div class="text-center">
 				<h1 class="text-8xl">LMS</h1>
 				<p>&copy LMS Developer Team</p>
 			</div>
 			<div class="flex gap-10 underline-offset-2">
 				<a class="hover:underline" href={links.docsLink}>Docs</a>
-				<a class="hover:underline" href={links.supportLink}>Support</a>
-				<a class="hover:underline" href={links.inviteLink}>Invite</a>
-				<a class="hover:underline" href={base}>Dashboard</a>
+				<a class="hover:underline" href={links.supportLink} target="_blank">Support</a>
+				<a class="hover:underline" href={links.inviteLink} target="_blank">Invite</a>
+				<a class="hover:underline" href="/dash">Dashboard</a>
+				<a class="hover:underline" href="/terms">Terms</a>
+				<a class="hover:underline" href="/privacy">Privacy</a>
 			</div>
 		</footer>
 	</div>
