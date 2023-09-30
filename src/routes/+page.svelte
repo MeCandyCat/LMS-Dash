@@ -12,13 +12,14 @@
 			<div class="absolute -bottom-72 left-0 -z-10 aspect-square w-[60%] rounded-full bg-purple-900 opacity-20 blur-3xl filter" />
 		</div>
 		<!-- first section  -->
-		<section class="relative flex-col h-screen gap-10 p-16 text-5xl font-bold leading-normal text-center center-everything pt-28">
+		<section class="center-everything relative h-screen flex-col gap-10 p-16 pt-28 text-center text-5xl font-bold leading-normal">
 			<h1 class="bg-gradient-to-br from-sky-400 from-40% to-purple-700 to-80% bg-clip-text text-transparent">
 				Learning Management System<br />in Discord.
 			</h1>
 			<a
-				href={links.inviteLink} target="_blank"
-				class="p-2 px-4 text-4xl transition-all duration-500 border-4 rounded-full border-sky-500 text-sky-300 hover:border-purple-500 hover:text-purple-300"
+				href={links.inviteLink}
+				target="_blank"
+				class="rounded-full border-4 border-sky-500 p-2 px-4 text-4xl text-sky-300 transition-all duration-500 hover:border-purple-500 hover:text-purple-300"
 				>Invite</a
 			>
 		</section>
@@ -32,10 +33,10 @@
 		<!-- section divider  -->
 
 		<!-- Features section  -->
-		<section class="relative flex-col gap-10 p-16 pb-48 center-everything bg-slate-950">
-			<h1 class="text-5xl font-bold text-center text-purple-500">Features</h1>
+		<section class="center-everything relative flex-col gap-10 bg-slate-950 p-16 pb-48">
+			<h1 class="text-center text-5xl font-bold text-purple-500">Features</h1>
 
-			<div class="grid justify-center grid-cols-1 gap-10 lg:grid-cols-2">
+			<div class="grid grid-cols-1 justify-center gap-10 lg:grid-cols-2">
 				<FeatureCard
 					image="https://cdn-icons-png.flaticon.com/128/2641/2641257.png"
 					title="Host Classes"
@@ -76,7 +77,7 @@
 		</svg>
 
 		<!-- about section  -->
-		<section class="relative z-10 flex-col h-full text-justify center-everything min-h-64 bg-slate-900">
+		<section class="center-everything min-h-64 relative z-10 h-full flex-col bg-slate-900 text-justify">
 			<h1 class="m-5 mt-16 text-5xl font-bold text-purple-500">About LMS</h1>
 			<p class="m-16 mt-5 lg:mx-48 xl:mx-96">
 				Introducing LMS Discord Bot, your ultimate companion for creating and managing a Learning Management System on Discord! This versatile bot is
@@ -91,20 +92,5 @@
 				d="M0,96L80,106.7C160,117,320,139,480,176C640,213,800,267,960,282.7C1120,299,1280,277,1360,266.7L1440,256L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"
 			/>
 		</svg>
-
-		<footer class="relative flex flex-col items-center justify-around gap-10 p-16 text-lg font-bold bg-slate-950 md:flex-row">
-			<div class="text-center">
-				<h1 class="text-8xl">LMS</h1>
-				<p>&copy LMS Developer Team</p>
-			</div>
-			<div class="flex gap-10 underline-offset-2">
-				<a class="hover:underline" href={links.docsLink} target="_blank">Docs</a>
-				<a class="hover:underline" href={links.supportLink} target="_blank">Support</a>
-				<a class="hover:underline" href={links.inviteLink} target="_blank">Invite</a>
-				<a class="hover:underline" href="/dash">Dashboard</a>
-				<a class="hover:underline" href="/terms">Terms</a>
-				<a class="hover:underline" href="/privacy">Privacy</a>
-			</div>
-		</footer>
 	</div>
 </div>
