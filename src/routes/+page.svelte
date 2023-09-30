@@ -1,7 +1,6 @@
 <script>
 	import FeatureCard from '$lib/FeatureCard.svelte';
 	import links from '$lib/links';
-	import { base } from '$app/paths';
 </script>
 
 <div class="bg-grid">
@@ -99,7 +98,7 @@
 				<p>&copy LMS Developer Team</p>
 			</div>
 			<div class="flex gap-10 underline-offset-2">
-				<a class="hover:underline" href={links.docsLink}>Docs</a>
+				<a class="hover:underline" href={links.docsLink} target="_blank">Docs</a>
 				<a class="hover:underline" href={links.supportLink} target="_blank">Support</a>
 				<a class="hover:underline" href={links.inviteLink} target="_blank">Invite</a>
 				<a class="hover:underline" href="/dash">Dashboard</a>

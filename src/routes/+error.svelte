@@ -1,7 +1,6 @@
 <script>
 	import { page } from '$app/stores';
 	import links from '$lib/links'
-    import { base } from '$app/paths';
 </script>
 
 <div class="flex-col h-screen overflow-hidden bg-x center-everything ">
@@ -15,10 +14,11 @@
 		<p>&copy LMS Developer Team</p>
 	</div>
 	<div class="flex gap-10 underline-offset-2">
-		<a class="hover:underline" href={links.docsLink}>Docs</a>
-		<a class="hover:underline" href={links.supportLink}>Support</a>
-		<a class="hover:underline" href={links.inviteLink}>Invite</a>
-		<a class="hover:underline" href={base}>Dashboard</a>
+		<a class="hover:underline" href={links.docsLink} target="_blank">Docs</a>
+		<a class="hover:underline" href={links.supportLink} target="_blank">Support</a>
+		<a class="hover:underline" href={links.inviteLink} target="_blank">Invite</a>
+		<a class="hover:underline" href="/dash">Dashboard</a>
 		<a class="hover:underline" href="/terms">Terms</a>
+		<a class="hover:underline" href="/privacy">Privacy</a>
 	</div>
 </footer>

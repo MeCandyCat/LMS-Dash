@@ -1,6 +1,5 @@
 <script lang="ts">
 	import '../app.css';
-	import { base } from '$app/paths';
 	import links from '$lib/links';
 	import { slide } from 'svelte/transition';
 
@@ -26,7 +25,7 @@
 			</button>
 		{:else}
 			<div class="flex gap-5">
-				<a class="hover:underline" href={links.docsLink}>Docs</a>
+				<a class="hover:underline" href={links.docsLink} target="_blank">Docs</a>
 				<a class="hover:underline" href={links.supportLink} target="_blank">Support</a>
 				<a class="hover:underline" href={links.inviteLink} target="_blank">Invite</a>
 			</div>
@@ -36,7 +35,7 @@
 
 	{#if sideOpen && innerWidth < 426}
 		<div class="flex flex-col font-bold text-center text-white bg-transparent border-indigo-600 border-y-2 backdrop-blur" transition:slide>
-			<a class="p-4 border-b-2 border-indigo-600" href={links.docsLink}>Docs</a>
+			<a class="p-4 border-b-2 border-indigo-600" href={links.docsLink} target="_blank">Docs</a>
 			<a class="p-4 border-b-2 border-indigo-600" href={links.supportLink} target="_blank">Support</a>
 			<a class="p-4 " href={links.inviteLink} target="_blank">Invite</a>
 		</div>
