@@ -1,8 +1,8 @@
 <script lang="ts">
 	import '../app.css';
 	import links from '$lib/links';
+	import { base } from '$app/paths';
 	import { slide } from 'svelte/transition';
-
 	let innerWidth: number;
 	let sideOpen: boolean = true;
 </script>
@@ -12,7 +12,7 @@
 
 <div class="absolute w-[100%] z-50">
 	<nav class="top-0 flex items-center justify-between w-full h-10 gap-5 p-8 text-lg font-bold sm:p-10 sm:text-2xl">
-		<a class="bg-gradient-to-br from-indigo-500 from-50% to-sky-500 to-70% bg-clip-text text-transparent" href="/">LMS</a>
+		<a class="bg-gradient-to-br from-indigo-500 from-50% to-sky-500 to-70% bg-clip-text text-transparent" href="{base}">LMS</a>
 
 		{#if innerWidth < 426}
 			<button
