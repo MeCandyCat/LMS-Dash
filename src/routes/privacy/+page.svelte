@@ -5,8 +5,7 @@
 <div class="pt-28">
 	<h1 class="text-center text-5xl font-bold drop-shadow-2xl">Privacy Policy</h1>
 	<br />
-	<h3 class="px-28 text-xl">
-		<h2 class="">
+	<h3 class="mx-28 text-xl">
 			<p class="text-3xl font-bold">1. Permission to Access Server Data</p>
 			<br />
 			<p class="font-bold">Data Collection:</p>
@@ -50,7 +49,6 @@
 				By using the LMS Services, you acknowledge that you have read, understood, and agreed to this Privacy Policy. Your continued use of the Bot
 				indicates your acceptance of the terms and conditions outlined herein.
 			</p>
-		</h2>
 	</h3>
 </div>
 <svg class="translate-y-1 bg-slate-900 fill-slate-950" viewBox="0 0 1440 320">
