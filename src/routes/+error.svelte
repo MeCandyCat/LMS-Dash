@@ -1,6 +1,5 @@
 <script>
 	import { page } from '$app/stores';
-	import links from '$lib/links';
 </script>
 
 <div class="bg-x center-everything h-screen flex-col overflow-hidden">

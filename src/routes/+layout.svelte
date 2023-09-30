@@ -30,7 +30,7 @@
 				<a class="hover:underline" href={links.inviteLink} target="_blank">Invite</a>
 			</div>
 		{/if}
-		<a class="hover:underline" href="/dash">Login</a>
+		<a class="hover:underline" href="{base}/dash">Login</a>
 	</nav>
 
 	{#if sideOpen && innerWidth < 426}
